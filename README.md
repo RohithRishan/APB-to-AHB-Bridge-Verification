@@ -1,6 +1,6 @@
 # APB-to-AHB-Bridge-Verification
 
-Table of Contents:
+#Table of Contents:
 o	Introduction
 o	TB Architecture 
 o	Verification Plan
@@ -21,7 +21,7 @@ o	Conclusion
 
 
 
-Introduction:
+#Introduction:
 What is AMBA? 
 •	An open-standard, on-chip interconnect specification for connecting and managing components within System-on-a-Chip (SoC) designs.
 •	Enables the development of complex multi-processor systems with numerous controllers and components.
@@ -39,15 +39,10 @@ APB (Advanced Peripheral Bus):
 •	Reduced signal complexity compared to AHB.
 •	Optimized for low-frequency systems and minimal power consumption. 32-bit data width.
 
-
-
-
-
-
-Objective:
+#Objective:
 This project deals with the class based verification of bridge between high speed AMBA AHB(Advanced High Performance bus) and low-power AMBA APB (Advanced Peripheral Bus) in UVM.
 
-TB Architecture:
+#TB Architecture:
 
 
 
@@ -56,7 +51,7 @@ TB Architecture:
 
 
 
-Verification Plan:
+#Verification Plan:
 AHB Signals:
 Signal Name	Source	Description
 HCLK
